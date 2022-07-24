@@ -1,0 +1,22 @@
+{
+  "name": "udemy-ts",
+  "version": "1.0.0",
+  "description": "Typescript lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buravlev-arthur/ts-udemy.git"
+  },
+  "author": "Arthur Buravljov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buravlev-arthur/ts-udemy/issues"
+  },
+  "homepage": "https://github.com/buravlev-arthur/ts-udemy#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
