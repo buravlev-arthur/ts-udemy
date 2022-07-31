@@ -1,0 +1,16 @@
+env:
+  es2021: true
+  node: true
+extends:
+  - airbnb-base
+  - 'plugin:typescript-enum/recommended'
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+plugins:
+  - '@typescript-eslint'
+  - '@typescript-enum'
+rules: {
+  "no-console": "off"
+}
