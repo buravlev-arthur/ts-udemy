@@ -1,3 +1,4 @@
+/* @internal */ // этот интерфейс не будет включен в декларацию
 interface User {
   name: string;
   money: number;

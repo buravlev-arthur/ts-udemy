@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2016", // стандарт, в который мы компилируем
+    "lib": ["DOM", "ES2022.Object"], // объекты окружения, с которыми ts-комплиятор может взаимодействовать
+    "jsx": "react", // конфигурация JSX
+    "useDefineForClassFields": true, // описывать подробные определения для свойств классов
+  }
+}
