@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "noUnusedLocals": true, // подсвечивает неиспользуемые переменные
+    "noUnusedParameters": true, // подсвечивает неиспользуемые параметры
+    "exactOptionalPropertyTypes": true, // запрещает присваивать undefined опциональным свойствам
+    "noImplicitReturns": true, // проверяет, чтобы в пути функции возвращали то, что ожидается далее
+    "noFallthroughCasesSwitch": true, // требует break в switch'ах
+    "allowUnreachableCode": true, // перестаёт подсвечивать недостижимый код
+    // добавляет undefined к типу свойства, которое описано в интерфейсе опционально [index: number]: string, и в объекте может не быть
+    "noUncheckedIndexedAccess": true, 
+    "noPropertyAccessFromIndexSignature": true, // запрещает обращаться к опциональным свойствам так: object.property (можно только так: object['property'])
+    "noImplicitOverride": true, // требует служебное слово override при переопределении фукнции к классе-наследнике
+  }
+}
+
+// @ts-ignore - такой комменатрий отключает ts-проверку в строке под ним

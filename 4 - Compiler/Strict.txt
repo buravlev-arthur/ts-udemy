@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true, // включает строгий режим проверки
+    "noImplicitAny": true, // запрещает неявное (автоматическое) задание any
+    "strictNullCheck": true, // требует строго указывать undefined, если функция может ничего не вернуть
+    "srtictFunctionTypes": true, // требует строгого соответвия параметров и возр.результата функций
+    "strictBindCallApply": true, // проверяет аргументы передаваемые функции при применении метода apply()
+    "strictPropertyInitialization": true, // требует определяеть значения для свойств класса
+    "noImplicitThis": true, // проверяет контекст this в функциях со своим контекстом
+    "useUnknownInCatchVariables": true, // устанавливает для error в catch'е unknown тип (вместо any)
+    "alwaysStrict": true, // включает комментарий strict-режима для js-файлов
+  }
+}
