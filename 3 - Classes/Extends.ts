@@ -51,7 +51,7 @@ const getExtends = () => {
   }
 
   class Admin extends User {
-    name: string = 'admin'; // 3
+    override name: string = 'admin'; // 3
 
     constructor() { // 4
       super();
@@ -63,7 +63,7 @@ const getExtends = () => {
 
   /* Наследование существующих классов в JS */
   class MyError extends Error {
-    message: string
+    override message: string
     code?: number
 
     constructor(message: string, code?: number) {
